@@ -1,0 +1,45 @@
+@tailwind preflight;
+
+
+@tailwind components;
+  a{
+    text-decoration: none;
+  }
+  .wrap{
+    @apply text-black;
+  }
+  .lg-btn-primaly{
+    @apply font-bold rounded border-2 border-white rounded-full mt-2 px-4 py-8 text-white text-center;
+  }
+  .sm-btn-primaly{
+    @apply font-bold rounded border-2 border-white rounded-full mt-8 px-4 py-8 text-white text-center;
+  }
+  .lg-btn-border-primaly{
+    @apply font-bold rounded border-4 border-primaly rounded-full mt-60 px-4 py-8 text-primaly text-center;
+  }
+  .sm-btn-border-primaly{
+    @apply font-bold rounded border-2 border-primaly rounded-full mt-8 px-4 py-8 text-primaly text-center;
+  }
+  .item-containter{
+    @apply mt-128 mb-64;
+  }
+  .section-title{
+    @apply text-center mb-60;
+  }
+  .text-link{
+    @apply no-underline text-black;
+  }
+  .text-link:hover{
+    @apply text-primaly;
+  }
+  .footer-section-title{
+    @apply text-left mb-8;
+  }
+  .round-contact-button{
+    @apply block self-center mx-auto bg-primaly rounded-full text-white px-4 py-8 text-center border-2 border-white border-2 border-white;
+  }
+
+  
+@tailwind utilities;
+
+

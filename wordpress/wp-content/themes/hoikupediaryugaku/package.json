@@ -7,6 +7,7 @@
         "build": "webpack js/script.js"
     },
     "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.3.1",
         "cross-env": "^5.1",
         "css-loader": "^0.28.7",
         "extract-text-webpack-plugin": "^3.0.2",
@@ -15,6 +16,7 @@
         "postcss-loader": "^2.0.8",
         "style-loader": "^0.19.0",
         "tailwindcss": "^0.5.3",
+        "url-loader": "^1.1.1",
         "webpack": "^3.8.1"
     },
     "dependencies": {

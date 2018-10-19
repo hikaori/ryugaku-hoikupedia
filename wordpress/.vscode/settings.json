@@ -1,0 +1,8 @@
+{
+    "markdown.preview.breaks": true,
+    "editor.find.autoFindInSelection": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}
